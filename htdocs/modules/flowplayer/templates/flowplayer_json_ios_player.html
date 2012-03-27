@@ -1,0 +1,18 @@
+<{if $xoConfig.iframe && $iframe==true}>
+<iframe src="<{$xoops_url}>/modules/flowplayer/?fid=<{$player.fid}>&iframe=1&width=<{$player.width}>&height=<{$player.height}>&_returned=<{php}> echo seralize($GLOBALS['_returned']); <{/php}>" width="<{$player.width}>" height="<{$player.height}>"/></iframe>
+<{else}>
+  <div class="<{$player.id}>-box">
+    <!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
+    <video id="<{$player.id}>" class="video-js" width="<{$player.width}>" height="<{$player.height}>" <{if $player.controls}>controls="controls"<{/if}> preload="auto" <{if $player.poster}>poster="<{$xoops_url}>/<{$player.path}><{$player.poster}>"<{/if}> src="<{$player.source}>" type="vnd.apple.mpegURL">
+      <source src="<{$player.source}>" codecs="vnd.apple.mpegURL"/>
+      <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
+      <{if $player.poster}>
+        <img src="<{$xoops_url}>/<{$player.path}><{$player.poster}>" width="<{$player.width}>" height="<{$player.height}>" alt="Poster Image"
+          title="No video playback capabilities." />
+      <{/if}>
+    </video>
+  </div>
+  <!-- End VideoJS -->
+
+<{/if}> 
+

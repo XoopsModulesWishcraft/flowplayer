@@ -1,0 +1,12 @@
+<{if !$block.html}>
+<div style="display:block;<{if $block.width}>width:<{$block.width}>;<{/if}><{if $block.height}>height:<{$block.height}>;<{/if}>" id="<{$block.id}>">
+	&nbsp;
+</div>
+<{else}>
+<{$block.html}>
+<{/if}>
+<{if $block.js}>
+<script type="text/javascript">
+	<{$block.js}>
+</script>
+<{/if}>

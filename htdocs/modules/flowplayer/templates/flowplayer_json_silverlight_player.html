@@ -1,0 +1,6 @@
+<{if $xoConfig.iframe && $iframe==true}>
+<iframe src="<{$xoops_url}>/modules/flowplayer/?fid=<{$player.fid}>&iframe=1&width=<{$player.width}>&height=<{$player.height}>&_returned=<{php}> echo seralize($GLOBALS['_returned']); <{/php}>" width="<{$player.width}>" height="<{$player.height}>"/></iframe>
+<{else}>
+<silverlight width="<{$player.width}>" height="<{$player.height}>" src="<{$player.source}>" />
+<{/if}> 
+

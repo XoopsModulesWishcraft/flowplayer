@@ -1,0 +1,6 @@
+<{if $xoConfig.iframe && $iframe==true}>
+<iframe src="<{$xoops_url}>/modules/flowplayer/?fid=<{$player.fid}>&iframe=1&width=<{$player.width}>&height=<{$player.height}>&_returned=<{php}> echo seralize($GLOBALS['_returned']); <{/php}>" width="<{$player.width}>" height="<{$player.height}>"/></iframe>
+<{else}>
+<a href="<{$player.source}>" style="<{if $player.width}>width:<{$player.width}>;<{/if}><{if $player.height}>height:<{$player.height}>;<{/if}>" id="<{$player.id}>" class="<{$player.id}>"><{if $player.image}><img src="<{$player.image}>" style="display:block;<{if $player.width}>width:<{$player.width}>;<{/if}><{if $player.height}>height:<{$player.height}>;<{/if}>"/><{/if}></a>
+<{/if}> 
+

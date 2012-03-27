@@ -1,0 +1,156 @@
+========================================
+ 2012/03/15 23:03:01 Version 1.16 STABLE
+========================================
+ - Added /js/flowplayer-3.2.8.min.js FlowplayerPlayer Loader Upgraded old file removed (wishcraft)
+ - Added /swf/flowplayer.controls-3.2.8.swf FlowplayerPlayer Loader Upgraded old file removed (wishcraft)
+ - Added /swf/flowplayer.rtmp-3.2.8.swf FlowplayerPlayer Loader Upgraded old file removed (wishcraft)
+ - Added /swf/flowplayer-3.2.8.swf FlowplayerPlayer Loader Upgraded old file removed (wishcraft)
+ - Changed /language/english/admin.php Contants Missing Added - About (wishcraft)
+ - Changed /language/english/mainfile.php renamed to main.php - About (wishcraft)
+ - Changed /xoops_version.php better user agents, force jquery = true, fixed upload path (wishcraft)
+ - Changed *.php 3.2.3 global replace for 3.2.8 (wishcraft)
+ - Changed *.php 3.2.5 global replace for 3.2.8 (wishcraft)
+ - Changed *.php 3.2.7 global replace for 3.2.8 (wishcraft)
+ 
+========================================
+ 2012/03/15 23:03:01 Version 1.15 STABLE
+========================================
+ - Added /class/player.php FlowplayerPlayer::getImage() Support for Poster Image Retrieval (wishcraft)
+ - Changed /template/flowplayer_json_block_flash_player.html FlowplayerPlayer support of poster image (wishcraft)
+ - Changed /template/flowplayer_json_block_rtmp_player.html FlowplayerPlayer support of poster image (wishcraft)
+ - Changed /template/flowplayer_json_block_rtsp_player.html FlowplayerPlayer support of poster image (wishcraft)
+ - Changed /template/flowplayer_json_flash_player.html FlowplayerPlayer support of poster image (wishcraft)
+ - Changed /template/flowplayer_json_rtmp_player.html FlowplayerPlayer support of poster image (wishcraft)
+ - Changed /template/flowplayer_json_rtsp_player.html FlowplayerPlayer support of poster image (wishcraft)
+ - Changed /class/player.php dirname($_SERVER['PHP_SELF']) replace with path /modules/flowplayer (wishcraft)
+ - Changed /dojson_player.php dirname($_SERVER['PHP_SELF']) replace with path /modules/flowplayer (wishcraft)
+ 
+========================================
+ 2012/01/22 20:42:01 Version 1.14 STABLE
+========================================
+ - Added /class/player.php FlowplayerPlayer::getVar() Support for Special Useragent Variables (wishcraft)
+ - Added /class/player.php FlowplayerPlayer::getSpecialWithUserAgent() Support for Special Useragent Variables (wishcraft)
+ - Added Template templates/flowplayer_index_iframe_http_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_http_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_http_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_http_player.html (Wishcraft)
+ - Changed /class/player.php FlowplayerPlayer::toArray() Support for Special Useragent Variables (wishcraft)
+ - Changed /class/player.php FlowplayerPlayer::getSource() Support for HTTP Player Mode (wishcraft)
+ - Changed /class/player.php FlowplayerPlayer::getJS() Support for Special Useragent Variables (wishcraft)
+ - Changed /xoops_version.php Support for Special Useragent Variables & HTTP Useragent Player Mode (wishcraft)
+ - Changed /sql/mysql.sql Support for Special Useragent Variables & HTTP Useragent Player Mode (wishcraft)
+ - Changed /include/update.php Support for Special Useragent Variables & HTTP Useragent Player Mode (wishcraft)
+ - Changed /include/form.flowplayer.php Support for Special Useragent Variables & HTTP Useragent Player Mode (wishcraft)
+ - Changed /include/formselectsupport.php Support for HTTP Useragent Player Mode (wishcraft)
+ 
+========================================
+ 2012/01/19 2:30:01 Version 1.13 STABLE
+========================================
+ - Added /class/player.php PlayerObject::getInsecureJS() Support for Insecure Javascript (No JSON) (wishcraft)
+ - Changed /index.php Support for Insecure HTML/Javascript (No JSON) (wishcraft)
+ - Changed /xoops_version.php Support for Insecure HTML/Javascript (No JSON) (wishcraft)
+ - Changed /language/english/modinfo.php Insecure preference settings (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_flash_player.html Support Insecure HTML (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_ios_player.html Support Insecure HTML (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_rtmp_player.html Support Insecure HTML (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_rtsp_player.html Support Insecure HTML (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_silverlight_player.html Support Insecure HTML (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_html5_player.html Support Insecure HTML (Wishcraft)
+ - Changed /templates/flowplayer_index_iframe_other_player.html Support Insecure HTML (Wishcraft)
+ 
+ 
+ ========================================
+ 2012/01/18 21:00:01 Version 1.12 STABLE
+========================================
+ - Added /preloads/core.php User Agent Spy stored in cache (wishcraft)
+ - Added /templates/flowplayer_cpanel_useragents_list.html User Agent Spy control panel template (wishcraft)
+ - Changed /language/english/modinfo.php menu constants & spelling error in style.css path (Wishcraft)
+ - Changed /language/english/admin.php menu constants User Agent Spy control panel (Wishcraft)
+ - Changed /admin/menu.php menu constants for User Agent Spy control panel added (Wishcraft)
+ - Changed /admin/index.php Code for User Agent Spy control panel added (Wishcraft)
+ 
+========================================
+ 2012/01/11 05:00:01 Version 1.10 STABLE
+========================================
+ - Changed Implementation of HTML Generater getHTML() /class/player.php  (Wishcraft)
+ - Changed Implementation of Javascript Generater getJS() /class/player.php  (Wishcraft) 
+ - Changed Implementation of Index /index.php  (Wishcraft)
+ - Changed Implementation of JSON Strapping /dojson_player.php  (Wishcraft)
+ - Changed New Preferences /xoops_version.php (Wishcraft)
+ - Changed System menu defined /xoops_version.php (Wishcraft)
+ - Changed New Preference Language Defines for config language/english/modinfo.php (Wishcraft)
+ - Changed New Fields added to `flowplayer_player` sql/mysql.sql (Wishcraft)
+ - Changed New Fields & Table added to update script include/update.php (Wishcraft)
+ - Removed Template templates/flowplayer_index_iframe_player.html (Wishcraft)
+ - Removed Template templates/flowplayer_index_player.html (Wishcraft)
+ - Removed Template templates/flowplayer_json_block_player.html (Wishcraft)
+ - Removed Template templates/flowplayer_json_player.html (Wishcraft)
+ - Added New Table added to `flowplayer_mimetypes` sql/mysql.sql (Wishcraft)
+ - Added Classes Blue Room class for `flowplayer_mimetypes` class/mimetypes.php (Wishcraft)
+ - Added Function getSource() class/player.php (Wishcraft)
+ - Added Function getModeWithUserAgent() class/player.php (Wishcraft) 
+ - Added Javascript js/video.js (Wishcraft)
+ - Added Stylesheet language/english/video-js.css (Wishcraft)
+ - Added Template templates/flowplayer_cpanel_mimetypes_edit.html (Wishcraft)
+ - Added Template templates/flowplayer_cpanel_mimetypes_list.html (Wishcraft)
+ - Added Template templates/flowplayer_index_iframe_flash_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_iframe_ios_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_iframe_other_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_iframe_rtmp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_iframe_rtsp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_iframe_silverlight_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_flash_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_ios_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_other_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_rtmp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_rtsp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_index_silverlight_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_flash_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_ios_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_other_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_rtmp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_rtsp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_block_silverlight_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_flash_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_ios_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_other_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_rtmp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_rtsp_player.html (Wishcraft)
+ - Added Template templates/flowplayer_json_silverlight_player.html (Wishcraft)
+ 
+========================================
+ 2011/12/06 08:00:01 Version 1.07 STABLE
+========================================
+ - Changed token system uses $_SESSION instead of Java /blocks/flowplayer_block_player.php (Wishcraft)
+ - Changed token system uses $_SESSION instead of Java /class/player.php (Wishcraft)
+ - Changed token system uses $_SESSION instead of Java /dojson_player.php (Wishcraft)
+ - Changed Implementation of Blocks form Language /blocks/flowplayer_block_player.php  (Wishcraft)
+ - Changed Allow for player states to be specifiable for files js/core.php (Wishcraft)
+ - Changed Allow for player states to be specifiable for files /dojson_player.php (Wishcraft)
+ - Changed New Preference Language Defines for config language/english/modinfo.php (Wishcraft)
+ - Removed Unrequired language file language/english/block.php (Wishcraft)
+ - Removed Unrequired flash file swf/flowplayer-3.2.8-0.swf (Wishcraft)
+ - Removed Unrequired Block Unique Java Function js/json_functions.js (Wishcraft)
+ - Added Function flowplayer_getUserIP() include/functions.php (Wishcraft)
+ - Added Function is_ipv6() include/functions.php (Wishcraft)
+ - Added Function getIP() class/player.php (Wishcraft)
+ - Added Preference for Difference in Passkey Timer /xoops_version.php (Wishcraft)
+ - Added Preference for Variance Weight in Passkey Timer /xoops_version.php (Wishcraft)
+ 
+========================================
+ 2011/11/10 09:40:00 Version 1.06 STABLE
+========================================
+ - Changed token system changed to by second range  (Wishcraft)
+ - Changed allow for iframe, width & height $_GET Switch on main index /index.php  (Wishcraft)
+ - Changed $GLOBALS['flowplayerModule'] population checking in language/english/modinfo.php (Wishcraft)
+ - Changed Admin GUI Defaults and About Box admin/index.php (Wishcraft)
+ - Added XOOPS 2.5.x Admin GUI - xoops_version.php variable added (missing) (Wishcraft)
+ 
+========================================
+ 2011/11/08 07:42:00 Version 1.05 STABLE
+========================================
+ - Changed $pathImageAdmin renamed to $GLOBALS['flowplayerImageAdmin']  (Wishcraft)
+ - Changed $pathImageIcon renamed to $GLOBALS['flowplayerImageIcon']  (Wishcraft)
+ - Changed $GLOBALS['xoopsModule'] in module renamed to $GLOBALS['flowplayerModule'] (Wishcraft)
+ - Changed $GLOBALS['xoopsModuleConfig'] in module renamed to $GLOBALS['flowplayerModuleConfig'] (Wishcraft)
+ - Changed XOOPS 2.5.x Admin GUI  (Wishcraft)
